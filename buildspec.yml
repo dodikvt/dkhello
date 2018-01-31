@@ -11,4 +11,4 @@ phases:
   build:
     commands:
       - docker images
-      - docker run -p 80:80 dkhelloworld
+#      - docker run -p 80:80 dkhelloworld
