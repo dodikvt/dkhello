@@ -12,7 +12,7 @@ phases:
     commands:
       - docker images
 #      - docker run -p 80:80 dkhelloworld
-      - docker tag dktest:latest 654867148374.dkr.ecr.us-east-2.amazonaws.com/dktest:latest
+      - docker tag dktest:latest 654867148374.dkr.ecr.us-east-2.amazonaws.com/dktest:dkhelloworld
   post_build:
     commands:
-      - docker push 654867148374.dkr.ecr.us-east-2.amazonaws.com/dktest:latest
+      - docker push 654867148374.dkr.ecr.us-east-2.amazonaws.com/dktest:dkhelloworld
