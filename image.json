@@ -1,0 +1,6 @@
+[
+    {
+        "name": "helloworld",
+        "imageUri": "654867148374.dkr.ecr.us-east-2.amazonaws.com/dktest:dkhelloworld"
+    }
+]
